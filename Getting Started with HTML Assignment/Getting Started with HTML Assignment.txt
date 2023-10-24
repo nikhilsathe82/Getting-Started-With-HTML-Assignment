@@ -1,0 +1,39 @@
+Getting Started With HTML Assignment
+
+Answer 2. Comments inside HTML are sections which tells the browser that it contains comments or any content that must
+be ignored by the browser. The comments are enclosed within the <! -- --> tags which indicates that it should be rendered on the browser.
+
+Example to show how comments are used inside html page:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <! -- This is a simple html page -->
+    <h1>Introduction to HTML</h1>
+    <p>HTML stands for HyperText Markup Language. It's a standard markup language used to create web pages.
+       HTML defines the structure of web pages and how they look.</p>
+    <br />
+    <hr>
+</body>
+</html>
+-=-------------------------------------------------------------------------------------------------------------------
+Answer 4. Tags are integral part of an html element. Tags begins with < symbols and ends with > symbol. Most tags require
+closing tags. Some of the examples of tags are:
+<p></p>
+<h1></h1>
+
+Elements form the entire web page. Elements comprise of tags, any tag attributes, content between the tags and the closing tag.
+For example:
+ <h1>Introduction to HTML</h1>
+ <p>HTML stands for HyperText Markup Language.</p>
+Here, the entire <h1>Introduction to HTML</h1> is one single element enclosed within the starting tag <h1> and ending tag </h1>.
+Hence a web page can be said to be comprised of several such elements. The <html> element is the root element under which
+all elements are placed.
+
+--------------------------------------------------------------------------------------
+Answer 5. The DOCTYPE declaration in html indicated by <!DOCTYPE html> at the start of the html pages
+          informs the web browsers in what version of html the document is written. When <!DOCTYPE html> is mentioned 
+          at start it simply informs the browser that this document type is a html 5 document and browser
+          will display the web page in a way it is expected to be displayed. 
